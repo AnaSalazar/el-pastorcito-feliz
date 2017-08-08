@@ -23,6 +23,11 @@
 	font-family:'Pangolin', cursive;
 }
 
+#map{
+    width:100%;
+    height:40vh;
+  }
+
 .botones{
     margin-top:15%;
     padding: 5%;
@@ -33,6 +38,7 @@
 }
 
 .formulario{
+
  margin-top:15%;
 }
 

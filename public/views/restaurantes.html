@@ -6,11 +6,58 @@
     <title>EL Pastorcito Feliz</title>
     <link type="text/css" rel="stylesheet" href="../assets/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="../assets/css/main.css">
+    <script src="https://use.fontawesome.com/75919d6994.js"></script>
   </head>
-  <body>
+  <body class="pink">
+    <section class="container">
+      <div class="row">
+        <h5 class="center white-text">EL PASTORCITO FELIZ<h5>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div class="center">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="taquerias" class="">
+      <ul class="collection container">
+        <li class="collection-item avatar">
+          <img src="../assets/images/senorTaco.jpg" alt="" class="circle img-responsive">
+          <span class="title">Punto Taco MX</span>
+          <p>Av. Álvaro Obregón 230, Roma Nte., 06700 Ciudad de México, CDMX<br>
+             <strong>Distancia: </strong>3 Km
+          </p>
+          <a href="#!" class="secondary-content"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></a>
+        </li>
+        <li class="collection-item avatar">
+          <img src="../assets/images/senorTaco.jpg" alt="" class="circle img-responsive">
+          <span class="title">Tacos "El gato Volador"</span>
+          <p>06700, Av. Álvaro Obregón 206, Roma Nte., 06700 Ciudad de México, CDMX<br>
+             <strong>Distancia: </strong>4 Km
+          </p>
+          <a href="#!" class="secondary-content"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></a>
+        </li>
+        <li class="collection-item avatar">
+          <img src="../assets/images/senorTaco.jpg" alt="" class="circle img-responsive">
+          <span class="title">El Faraón</span>
+          <p>Calle Oaxaca 92-93, Cuauhtémoc, Roma Norte, Roma Nte., 06700 Ciudad de México, CDMX<br>
+             <strong>Distancia: </strong>500 m
+          </p>
+          <a href="#!" class="secondary-content"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></a>
+        </li>
 
+      </ul>
+    </section>
+    
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGqLTgaXdNU9LvxlLqrT5rQ2aN_UdHO2U&callback=initMap&libraries=places" type="text/javascript">
+    </script>
+    
     <script type="text/javascript" src="../assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../assets/js/materialize.min.js"></script>
-    <script type="text/javascript" src="../assets/js/app.js"></script>
+    <script type="text/javascript" src="../assets/js/restaurantes.js"></script>
   </body>
 </html>

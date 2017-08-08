@@ -1,4 +1,3 @@
-// Initialize Firebase
   var config = {
     apiKey: "AIzaSyCC_rYFUf8nwK8Mffb8a80_KpdAU_i9IL0",
     authDomain: "pastorcitofeliz-9b6a3.firebaseapp.com",
@@ -45,3 +44,4 @@ firebase.initializeApp(config);
 botonGoogle.addEventListener("click", inicioGoogle);
 botonFacebook.addEventListener("click", inicioFacebook);
 botonTwitter.addEventListener("click", inicioTwitter);
+
