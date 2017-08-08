@@ -8,8 +8,44 @@
     <link rel="stylesheet" href="../assets/css/main.css">
   </head>
   <body>
-    <h1></h1>
-
+    <section class="contenedor-general">
+      <div class="row">
+        <div class="col m4 offset-m2 botones center ">
+          <a  id="facebook" class="btn-large blue darken-4" href="registro.html"><i class="fa fa-facebook" aria-hidden="true"></i>Login with FaceBook </a>
+          <a id="twitter"  class="btn-large cyan lighten-1" href="registro.html"><i class="fa fa-twitter" aria-hidden="true"></i>Login with twitter </a>
+          <a  id="google" class="btn-large  red darken-1" href="registro.html"><i class="fa fa-google-plus" aria-hidden="true"></i>Login with Google+ </a>
+        </div>
+        <div class="col m4 offset-m1 formulario">
+          <form action="">
+            <h5>Sign in manually</h5>
+            <div class="input-field">
+              <input placeholder="username or email" id="username" type="text" class="validate">
+              <!--<label for="first_name">user/email</label>-->
+            </div>
+            <div class="input-field">
+              <input placeholder="password" id="password" type="password" class="validate">
+              <!--<label for="first_name">password</label>-->
+            </div>
+            <div class="row">
+              <div class="col m4">
+                <p>
+                  <input type="checkbox" id="test5" />
+                  <label for="test5">Remember me</label>
+                </p>
+              </div>
+              <div class="col m8">
+                <button class="btn  red" type="submit" name="action">
+                   LOGIN
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase-auth.js"></script>
     <script type="text/javascript" src="../assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../assets/js/materialize.min.js"></script>
     <script type="text/javascript" src="../assets/js/app.js"></script>

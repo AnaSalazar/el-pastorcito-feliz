@@ -1,4 +1,3 @@
-
 .gif-contenedor{
 	position: absolute;
 	background-image: url(../images/taquitovolador.gif);
@@ -19,6 +18,24 @@
 	font-family:'Pangolin', cursive;
 	color: greenyellow;
 }
+
 .subtitulo-principal{
 	font-family:'Pangolin', cursive;
+}
+
+.botones{
+    margin-top:15%;
+    padding: 5%;
+}
+
+.botones a{
+    margin-top:10%;
+}
+
+.formulario{
+ margin-top:15%;
+}
+
+.formulario input{
+    width: 260px;
 }
